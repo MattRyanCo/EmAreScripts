@@ -29,7 +29,7 @@ PROCESS {
     }
 
     # Set license key addition & removal commands for ACF Pro
-    $addAcfLicenseKeyCommand = "wp config set ACF_PRO_LICENSE b3JkZXJfaWQ9ODY3OTh8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE2LTA4LTAyIDEzOjA5OjMy --anchor=EOF --quiet"
+    $addAcfLicenseKeyCommand = "wp config set ACF_PRO_LICENSE #### --anchor=EOF --quiet"
     $removeAcfLicenseKeyCommand = "wp config delete ACF_PRO_LICENSE"
 
     # Loop through all websites or just the one provided. 
